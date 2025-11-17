@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving Liscense Application Form</title>
+</head>
+<body>
+    <center>
+    <form action="https://parivahan.gov.in/en/content/license-registration-details-page">
+        <h1>Driving Liscense Application Form</h1>
+        <table style="border: 2px solid black;border-collapse:collapse">
+            <tr>
+                <td style="border: 2px solid black;">Full Name</td>
+                <td style="border: 2px solid black;"><input type="text" placeholder="Enter your full name" minlength="3" maxlength="40" required></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Father Name</td>
+                <td style="border: 2px solid black;"><input type="text" placeholder="Enter your full name" minlength="3" maxlength="40" required></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Date of Birth</td>
+                <td style="border: 2px solid black;"><input type="date" min="1960-01-01" max="2007-01-01" required></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Age</td>
+                <td style="border: 2px solid black;"><input type="number" min="18" max="60" required></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Gender</td>
+                <td style="border: 2px solid black;"><input type="radio" name="gen">Male
+               <input type="radio" name="gen">Female
+               <input type="radio" name="gen">Others 
+            </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Aadhar Number</td>
+                <td style="border: 2px solid black;"><input type="number" minlength="12" maxlength="12"></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">PAN Number</td>
+                <td style="border: 2px solid black;"><input type="text" minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Email</td>
+                <td style="border: 2px solid black;"><input type="text"></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Mobile Number</td>
+                <td style="border: 2px solid black;"><input type="tel"></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Permanent Address</td>
+                <td style="border: 2px solid black;"><textarea name="" id=""></textarea></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">State</td>
+                <td style="border: 2px solid black;">
+                    <select name="" id="">
+                        <option value="" hidden>Select state</option>
+                        <option value="state1">Andhra Pradesh</option>
+                        <option value="state2">Telangana</option>
+                        <option value="state3">Madhya Pradesh</option>
+                        <option value="state4">Kerala</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Upload ID Proof</td>
+                <td style="border: 2px solid black;"><input type="file"></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">License Type</td>
+                <td style="border: 2px solid black;">
+                    <input type="checkbox">Two Wheeler
+                    <br>
+                    <input type="checkbox">Four Wheeler
+                    <br>
+                    <input type="checkbox">Heavy Vehicle
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Create Password</td>
+                <td style="border: 2px solid black;">
+                    <input type="password" placeholder="Create a password" required></td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid black;">Terms & Conditions</td>
+                <td style="border: 2px solid black;"><input type="checkbox">I agree to all terms and conditions</td>
+            </tr>
+            <tr>
+                <th style="border: 2px solid black;" colspan="2"><input type="Submit" value="Submit Application">  <input type="reset" value="Clear Form"></th>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>

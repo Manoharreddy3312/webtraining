@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="width: 300px;border: 3px solid blueviolet;">
+        <legend><h2>Form</h2></legend>
+    <form action="https://www.netflix.com/browse">
+        <label for="name">UserName</label>
+        <input type="text" id="name" required placeholder="enter your password" minlength="4" maxlength="10"><br>
+        <br>
+         <label for="pass">Password</label>
+        <input type="text" id="pass" required placeholder="enter your name" minlength="6" maxlength="10" ><br>
+
+        <br>
+        <label for="">DOB</label>
+        <input type="date" min="2000-01-01" max="2060-12-31"><br>
+        <br>
+        <label for="">Age</label>
+        <input type="number" min="18" max="80" required placeholder="age"><br>
+        <br>
+        <label for="">Phone number</label>
+        <input type="tel" required placeholder="phone number" pattern="[0-9]{10}"><br>
+        <br>
+         <label for="">Email</label>
+         <input type="email" placeholder="enter your email id"><br>
+        <br>
+        <label for="">Gender</label>
+        <input type="radio" name="gen">Male
+        <input type="radio" name="gen">Female
+        <input type="radio" name="gen">other <br>
+        <br>
+        <label for="">Skills</label>
+        <input type="checkbox">java
+        <input type="checkbox">python
+        <input type="checkbox" disabled>web
+        <input type="checkbox">sql <br>
+        <br>
+        <label>Resume</label>
+        <input type="file"><br>
+        <br>
+        <label for="">Photo</label>
+        <input type="file"><br>
+        <br>
+        <label for="">Image</label>
+        <input type="image" src="C:\Users\HP\OneDrive\Documents\Desktop\web technology\asset\Image\pawan kalyan" style="width: 50px;"><br>
+        <br>
+        <label for="">State</label>
+        <select name="" id="">
+            <option value="" hidden>Select your state</option>
+            <option value="State1">Telangana</option>
+            <option value="State2">Andhra Pradesh</option>
+            <option value="State3">Tamilnadu</option>
+            <option value="State4">Karnataka</option>
+        </select><br>
+        <br>
+        <label for="">District</label>
+        <select name="" id="">
+            <option value=""hidden>choose ur district</option>
+            <optgroup label="ap">
+                <option value="">visakhapatanam</option>
+                <option value="">chitoor</option>
+                <option value="">vijayawada</option>
+                <option value="">west godavari</option>
+            </optgroup>
+            <optgroup label="Telangana">
+                <option value="">warangal</option>
+                <option value="">karimnagar</option>
+                <option value="">khammam</option>
+         </optgroup>  
+        </select> <br>
+        <label for="">state</label>
+        <input list="state" placeholder="select ur state">
+        <datalist id="state">
+            <option value="andhrapradesh">
+            <option value="arunachalam">
+            <option value="assam">
+            <option value="telangana">
+            <option value="Tamilnadu">
+            <option value="karnataka">
+        </datalist> <br>
+        <br>
+        <label for="">Address></label>
+        <textarea name="" id=""></textarea>
+        <input type="'range">
+        <input type="week">
+        <input type="year">
+        <input type="month">
+        <input type="datetime">
+        <input type="color">
+        <input type="search">
+
+        <progress value="50" max="100"></progress>
+
+
+        <input type="submit" value="signup">
+        <input type="reset" value="clear">
+    </form>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* #container{ */
+    /* width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red,black);
+    background-image: linear-gradient(violet 0% 20%,indigo 20% 40%,blue 40% 50%,green 50% 60%,yellow 60% 70%,orange 70% 80%,red 80% 100%); */
+    /* background-size: 5% 5%; */
+    /* background-image: linear-gradient(90deg,skyblue 0% 10%,black 50% 60%,darkblue 80% 100%); */
+/* } */
+/* #container1{
+    width: 400px;
+    height: 250px;
+    background-image: linear-gradient(45deg,red,transparent,black),url(../../assert/IMAGE/vijay.jpg);
+    background-size: 100% 100%; */
+/* } */
+/* #container2{
+    width: 250px;
+    height: 400px;
+    background-image: linear-gradient(45deg,white,transparent,blue),url(../../assert/IMAGE/vijay\ thalapathi.jpg);
+    background-size: 100% 100%; */
+/* } */
+#container3{
+    width: 500px;
+    height: 300px;
+    background-image: radial-gradient(circle at right center,red,skyblue,teal,aqua,black);
+    background-image: radial-gradient(circle,red 0% 20%,blue 20% 60%,green 60% 100%);
+    background-image: url(../../assert/IMAGE/sri\ venkateshwarala\ swamy.png),conic-gradient(yellow,goldenrod yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,
+    yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow
+    ,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod)yellow,goldenrod,yellow,goldenrod,
+    yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow
+    ,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrod,yellow,goldenrodyellow,goldenrod,yellow
+    ,goldenrod);
+    background-size:30%,100% 100%;
+    background-repeat:no-repeat;
+    background-position:fixed;
+
+}

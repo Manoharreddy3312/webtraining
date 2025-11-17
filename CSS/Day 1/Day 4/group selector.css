@@ -1,0 +1,15 @@
+#heading,.para,span{
+    color: orangered;
+}
+
+#heading{
+    background-color: cadetblue;
+}
+
+.para{
+    background-color: aqua;
+}
+
+span{
+    background-color: beige;
+}
